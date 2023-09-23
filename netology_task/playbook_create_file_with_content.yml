@@ -1,0 +1,5 @@
+---
+- hosts: localhost
+  remote_user: root
+  roles:
+    - my_own_namespace.yandex_cloud_elk.create_file_with_content
